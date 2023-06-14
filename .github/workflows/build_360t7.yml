@@ -1,4 +1,4 @@
-name: build cr660x
+name: build 360t7
 
 on:
   #pull_request:
@@ -43,5 +43,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v1
         with:
-          name: cr6606
+          name: 360t7
           path: bin/targets
