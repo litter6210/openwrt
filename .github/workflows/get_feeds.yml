@@ -1,4 +1,4 @@
-name: build 360t7
+name: get feeds
 
 on:
   #pull_request:
