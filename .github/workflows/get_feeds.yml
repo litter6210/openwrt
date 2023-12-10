@@ -22,7 +22,6 @@ jobs:
       - name: Install feeds
         run: |
           ./scripts/feeds update -a
-          ./scripts/feeds install -a
       - name: Upload artifact
         uses: actions/upload-artifact@v1
         with:
